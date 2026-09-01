@@ -31,3 +31,11 @@ document.addEventListener("keydown", (e) => {
     box.style.left = `${Xaxis}px`
     box.style.top = `${Yaxis}px`
 })
+
+// Making the box also move by clicking the screen
+boxContainer.addEventListener("click", (e) => {
+    Xaxis = e.offsetX - 50
+    Yaxis = e.offsetY - 50
+    box.style.left = `${Xaxis}px`
+    box.style.top = `${Yaxis}px`
+})
