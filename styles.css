@@ -1,4 +1,13 @@
-/* All this is just some pretty standard styling to make the whole thing actually visible and work the way we want it to. */
+/* All this is just some pretty standard styling to make the whole thing actually visible and work the way we want it to.
+Also to give a tiny bit of flavour, pun very much intended*/
+@font-face {
+    font-family: russo;
+    src: url(media/russo-one.regular.ttf);
+}
+@font-face {
+    font-family: ruluko;
+    src: url(media/ruluko.regular.ttf);
+}
 
 * {
     margin: 0;
@@ -10,6 +19,7 @@ body {
     height: 100vh;
     background-color: darkorchid;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -32,4 +42,14 @@ body {
     top: 0;
     left: 0;
     transition: .3s;
+}
+
+h1 {
+    font-family: russo;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 1.3rem;
+    font-family: ruluko;
 }
