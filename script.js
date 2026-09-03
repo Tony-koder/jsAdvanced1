@@ -39,3 +39,12 @@ boxContainer.addEventListener("click", (e) => {
     box.style.left = `${Xaxis}px`
     box.style.top = `${Yaxis}px`
 })
+
+// Adding a little easter egg.
+
+document.addEventListener("keydown", (e) => {
+    if (e.code === "Space") {
+        const audio = new Audio("./media/flavortown.mp3")
+        audio.play();
+    }
+});

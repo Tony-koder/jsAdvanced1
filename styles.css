@@ -53,3 +53,10 @@ h2 {
     margin: 1.3rem;
     font-family: ruluko;
 }
+
+.attribute {
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
